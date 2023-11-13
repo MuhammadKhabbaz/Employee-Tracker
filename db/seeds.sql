@@ -11,7 +11,7 @@ VALUES (001, "sales person", 50000, "marketing"),
        (004, "accountant", 60000, "finance"),
        (005, "training and development", 60000, "human resources");
 
-INSERT INTO employees (id, first_name, last_name, job_title, department, salary, manager)
+INSERT INTO employees (id, first_name, last_name, job_role, department, salary, manager)
 VALUES (001, "Joe", "Bloe", "sales person", "marketing", 50000, "John Doe"),
        (002, "John", "Doe", "sales lead", "marketing", 80000, NULL),
        (003, "Mike", "Chan", "lead engineer", "operations", 150000, NULL),
